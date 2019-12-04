@@ -1,6 +1,5 @@
-
 #!/bin/sh
 
-/usr/bin/invoke_app "$@" -C "start_jupyter -T @tool test_notebook.ipynb" \
+/usr/bin/invoke_app "$@" -C "start_jupyter -T @tool bin/test_notebook.ipynb" \
                                                -t quorumsensing \
-                                               -u anaconda-6
+                                               -u anaconda3-5.1
